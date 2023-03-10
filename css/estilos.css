@@ -56,7 +56,7 @@ header {
     right: 0;
     width: 30vw;
     height: 100%;
-    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -68,7 +68,7 @@ header {
 
 .spread{
     transform: translate(0);
-}
+} 
 
 .menu-navegacion a{
     color: #fff;
@@ -85,12 +85,12 @@ header {
     font-size: 25px;
 }
 
-/*Serviio*/
+/*Servicio*/
 
 .subtitulo {
     text-align: center;
     font-weight: 300;
-    color: #9f8ad0;
+    color: #38f9d7;
     margin-bottom: 40px;
     font-size: 40px;
 }
@@ -106,7 +106,7 @@ header {
     width: 40%;
 }
 
-.checklist-servicio {
+.checklist {
 width: 45%;
 }
 
@@ -116,12 +116,12 @@ width: 45%;
 
 .n-servicio {
     margin-bottom: 7px;
-    color: #9f8ad0;
+    color: #38f9d7;
 }
 
 .numero {
     display: inline-block;
-    background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
     width: 30px;
     height: 30px;
     color: #fff;
@@ -132,7 +132,7 @@ width: 45%;
     margin-right: 5px;
 }
 
-.galeria{
+.gallery{
     background: #f2f2f2;
 }
 
@@ -219,7 +219,7 @@ width: 45%;
 /*footer*/
 
 footer{
-    background: #9f8ad0;
+    background: #38f9d7;
     padding-bottom: 0.1px;
 }
 
@@ -265,7 +265,7 @@ footer{
 
 .social-media-icon:hover{
     background: #fff;
-    color: #764ba2;
+    color: #38f9d7;
 }
 
 .social-media-icon i{
@@ -284,7 +284,7 @@ footer{
 
 @media screen and (max-width:800px) {
     .menu-navegacion{
-        width: 50vw;
+        width: 40vw;
     }  
 
     .titulo{
@@ -292,12 +292,12 @@ footer{
     }
 
     .contenedor-servicio{
-        width: 80%;
+        width: 90%;
         margin-bottom: 40px;
     }
 
-    .checklist-servicio{
-        width: 80%;
+    .checklist{
+        width: 90%;
     }
 
     .servicio{
@@ -364,6 +364,11 @@ footer{
 
     .img-galeria{
         width: 95%;
+    }
+
+    .social-media{
+        width: 90%;
+        
     }
 
     .contact-us{
