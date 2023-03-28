@@ -20,7 +20,7 @@ body {
 }
 header {
     height: 60vh;
-    background-image: linear-gradient(to right, rgba(67, 233, 122, 0.048) 0%, rgba(56, 249, 214, 0.041) 100%), url(../img/cinco.jpg);
+    background-image: linear-gradient(to right, rgba(67, 233, 122, 0.048) 0%, rgba(56, 249, 214, 0.041) 100%), url(../img/cuatro.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -56,7 +56,7 @@ header {
     right: 0;
     width: 30vw;
     height: 100%;
-    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+    background-image: linear-gradient(to right, #023074 0%, #ffb730 100%);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -90,7 +90,7 @@ header {
 .subtitulo {
     text-align: center;
     font-weight: 300;
-    color: #38f9d7;
+    color: #023047;
     margin-bottom: 40px;
     font-size: 40px;
 }
@@ -115,13 +115,13 @@ width: 45%;
 }
 
 .n-servicio {
-    margin-bottom: 7px;
-    color: #38f9d7;
+    margin-bottom: 10px;
+    color: #ffb730;
 }
 
 .numero {
     display: inline-block;
-    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+    background-image: linear-gradient(to right, #ffb730 0%,#023074 100%);
     width: 30px;
     height: 30px;
     color: #fff;
@@ -219,7 +219,7 @@ width: 45%;
 /*footer*/
 
 footer{
-    background: #38f9d7;
+    background: #023047;
     padding-bottom: 0.1px;
 }
 
@@ -265,7 +265,7 @@ footer{
 
 .social-media-icon:hover{
     background: #fff;
-    color: #38f9d7;
+    color: #023047;
 }
 
 .social-media-icon i{
